@@ -2,7 +2,7 @@ create table adresa (
     id integer primary key autoincrement,
     mesto varchar(20) not null,
     ulice varchar(20) not null,
-    psc varchar(10) not null,
+    psc varchar(10),
     cp int
 );
 
