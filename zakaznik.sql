@@ -3,7 +3,7 @@ create table adresa (
     mesto varchar(20) not null,
     ulice varchar(20) not null,
     psc varchar(10) not null,
-    cp int not null
+    cp int
 );
 
 create table zakaznik (
